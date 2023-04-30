@@ -1,0 +1,70 @@
+@media screen and (min-width:0) {
+    .nome_h{
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 2rem;
+    }
+    .tipos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-around;
+        padding: 2rem;
+        flex-wrap: wrap;
+        margin-top: -1rem;
+    }
+    .dentro-tipos{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 21px;
+        
+    }
+}
+@media screen and (min-width:768px) {
+    .nome_h{
+        text-align: center;
+        font-size: 2rem;
+        padding: 2rem;
+    }
+    .tipos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-around;
+        padding: 4rem;
+        flex-wrap: wrap;
+       
+    }
+    .dentro-tipos{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 21px;
+        
+    }
+}
+@media screen and (min-width:1024px) {
+    .nome_h{
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+        padding: 2rem;
+        margin-right: 3rem;
+    }
+    .tipos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-around;
+        padding: 3rem;
+        margin-right: 3rem;
+    }
+    .dentro-tipos{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 21px;
+    }
+    .dentro-tipos:hover{
+        cursor: default;
+        color: var(--laranja);
+    } 
+}

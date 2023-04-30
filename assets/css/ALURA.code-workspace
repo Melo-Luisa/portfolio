@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../../../../ALURA"
+		},
+		{
+			"path": "../../../../CURSO_EM_VIDEO"
+		},
+		{
+			"path": "../../../../DRAW"
+		},
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../PUC"
+		},
+		{
+			"path": "../../../../UDEMY"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PRIVADO"
+	}
+}

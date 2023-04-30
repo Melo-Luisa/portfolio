@@ -1,0 +1,82 @@
+
+@media screen and (min-width:0) {
+    .nome_s{
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+        padding: 2rem;
+        margin-left: 1rem;
+    }
+    .categorias{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    
+    }
+    .dentro-categorias{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .nome_s{
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+        padding: 2rem;
+    }
+    .categorias{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    .dentro-categorias{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 22px;
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .nome_s{
+        display: flex;
+        justify-content: center;
+        font-size: 2rem;
+        padding: 2rem;
+        margin-right: 3rem;
+    }
+    .categorias{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-around;
+        padding: 3rem;
+        margin-right: 3rem;
+        
+    }
+    .dentro-categorias{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 22px;
+        cursor: default;
+        padding: 1rem;
+        
+    
+    }
+    .dentro-categorias:hover{
+        cursor: default;
+        color: var(--laranja);
+    } 
+    #html_img, #css, #js, #python, #design{
+        width: 4rem;
+        justify-content: space-between;
+        margin-right: 4rem;
+        display: none;
+    }
+}

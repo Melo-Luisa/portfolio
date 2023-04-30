@@ -1,0 +1,100 @@
+@media screen and (min-width:0) {
+    .formacao{
+        background-color: var(--claroL);
+        padding: 2rem;
+        width: 100%;
+    }
+    .nome_F{
+        text-align: center;
+        font-size: 2rem;
+        color: var(--fundo);
+    }
+    .formacao_sub{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5rem;
+    }
+    .graduacao, .alura, .google_i, .puc{
+        width: 25%;
+        margin-left: 1rem;
+        align-items: center;
+    }
+    .escola, .cursinho, .google, .faculdade{
+        text-align:center;
+        padding: 3rem;
+        justify-content: space-between;
+        list-style: none;
+    
+    }
+}
+@media screen and (min-width:768px) {
+    .formacao{
+        background-color: var(--claroL);
+        padding: 2rem;
+        width: 100%;
+    }
+    .nome_F{
+        text-align: center;
+        font-size: 3.5rem;
+        color: var(--fundo);
+    }
+    .formacao_sub{
+        display: flex;
+        flex-direction: column;
+        font-size: 2rem;
+    }
+    .graduacao, .alura, .google_i, .puc{
+        width: 25%;
+        margin-left: 2rem;
+        align-items: center;
+    }
+    .escola, .cursinho, .google, .faculdade{
+        text-align:center;
+        padding: 3rem;
+        justify-content: space-between;
+        list-style: none;
+    
+    }
+}
+@media screen and (min-width:1024px) {
+    .formacao{
+        background-color: var(--claroL);
+        margin-left: -2rem;
+        border-radius: 2rem;
+    }
+    .nome_F{
+        text-align: center;
+        font-size: 2rem;
+        color: var(--fundo);
+        margin-right: 2rem;
+    }
+    .graduacao, .alura, .google_i, .puc{
+        width: 35%;
+        display: grid;
+        justify-content: center;
+        padding: 2rem;
+        margin-left: 4rem;
+    }
+    .formacao_sub{
+        display: flex;
+        flex-direction: row;
+      
+    }
+    .escola, .cursinho, .google, .faculdade{
+        display: grid;
+        text-align: center;
+        border-radius: 5%;
+        padding: 2rem;
+        list-style: none;
+    }
+    .faculdade_n, .cursinho_n, .google_n, .escola_n{
+        font-size: 1.5rem;
+    }
+    .faculdade_d, .cursinho_d, .google_d, .escola_d{
+        font-size: 1.2rem;
+    }
+    .formacao_sub:hover{
+        cursor: default;
+    }
+}
+

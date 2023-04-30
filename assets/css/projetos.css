@@ -1,0 +1,159 @@
+@media screen and (min-width: 0) {
+    .projetos{
+        text-align: center;
+        padding: 2rem;
+        margin-left: 2rem;
+    }
+
+    #linha-horizontal_2{
+        width: 355px;
+        border: 2px dashed var(--laranja);
+        text-align : center;
+    }  
+    .nome_projetos{
+        font-size: 2.5rem;
+        margin-left: 2.5rem;
+    }
+    .encriptador,  .conversor_moeda, .aluraflix, .supermarket{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5rem;
+   }
+    .encriptador_escritos, .conversor_escritos, .aluraflix_escritos, .supermercado_escritos{
+        margin: 3rem, 0, 3rem;
+        width: 13rem;
+        text-decoration: none;
+    } 
+    .titulo_encriptador, .titulo_CM, .titulo_aluraflix, .titulo_supermercado{
+        padding: 0.5rem;
+        font-size: 1.5rem;
+        list-style-type: none;
+    }
+    #img_encriptador, #img_moeda, #img_aluraflix, #img_supermercado{
+        width: 15rem;
+        border-radius: 3rem;
+        margin-left: -1rem;
+    }
+    .link{
+        text-decoration: none;
+        color: var(--laranja);
+    }
+    /*p tirar as bolinhas*/
+    .vai{
+        list-style-type: none;
+    } 
+    .mais{
+        text-align: center;
+        color: var(--laranja);
+    }
+   
+}
+@media screen and (min-width: 768px) {
+    .projetos{
+        text-align: center;
+        padding: 2rem;
+        margin-left: 2rem;
+    }
+    .projetos_n{
+        font-size: 2rem;
+        padding: 1rem;
+        margin-left: 1rem;
+       
+    }
+    
+    .nome_projetos{
+        font-size: 2.5rem;
+    }
+    .encriptador,  .conversror_moeda, .aluraflix, .supermarket{
+        display: flex;
+        flex-direction: column;
+        margin-left: 4rem;
+   }
+    .encriptador_escritos, .conversor_escritos, .aluraflix_escritos, .supermercado_escritos{
+        margin: 3rem;
+        width: 30rem;
+        text-decoration: none;
+    } 
+    .titulo_encriptador, .titulo_CM, .titulo_aluraflix, .titulo_supermercado{
+        padding: 0.5rem;
+        font-size: 1.5rem;
+        list-style-type: none;
+    }
+    #img_encriptador, #img_moeda, #img_aluraflix, #img_supermercado{
+        width: 35rem;
+        border-radius: 2rem;
+    }
+
+    .link{
+        text-decoration: none;
+        color: var(--laranja);
+    }
+    .link:hover{
+        color: #fff;
+    }
+    /*p tirar as bolinhas*/
+    .vai{
+        list-style-type: none;
+    }
+    .mais{
+        text-align: center;
+        color: var(--laranja);
+    }
+   
+}
+
+@media screen and (min-width:1024px) {
+    .projetos{
+        text-align: center;
+        padding: 2rem;
+        margin-right: 3rem;
+    } 
+    .nome_projetos{
+        font-size: 2.5rem;
+    }
+    .encriptador,  .conversor_moeda, .aluraflix, .supermarket{
+        display: flex;
+        flex-direction: row;
+        margin-top: 1.5rem;
+
+    }
+    
+    .encriptador_escritos, .conversor_escritos, .aluraflix_escritos, .supermercado_escritos{
+        margin-right: 10rem;
+        align-items: center;
+        text-decoration: none;
+    } 
+    .titulo_encriptador, .titulo_CM, .titulo_aluraflix, .titulo_supermercado{
+        padding: 0.5rem;
+        font-size: 1.5rem;
+        list-style-type: none;
+    }
+
+    #img_encriptador, #img_moeda, #img_aluraflix{
+        width: 25rem;
+        border-radius: 2rem;
+        margin-left: 15rem;
+    }
+    #img_supermercado{
+        width: 25rem;
+        height: 12rem;
+        border-radius: 2rem;
+        margin-left: 15rem;
+    }
+    .link{
+        text-decoration: none;
+        color: var(--laranja);
+    }
+    .link:hover{
+        color: #fff;
+    }
+    /*p tirar as bolinhas*/
+    .vai{
+        list-style-type: none;
+    }
+    .mais{
+        text-align: center;
+        color: var(--laranja);
+    }
+   
+}
