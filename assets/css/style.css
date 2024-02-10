@@ -1,17 +1,26 @@
 :root{
-    --fundo: #2b2b2b;
-    --branco:#ffffff;
-    --laranja:#FF5811;
-    --claroL: #eb6f39;
+    --fundo: #171717;
+    --branco:#E0D9D9;
+    --verde: #497742;
+}
+@font-face {
+    font-family: 'Italiana';
+    src: url('../font/Italiana/Italiana-Regular.ttf');
+}
+@font-face {
+    font-family: 'Sansita';
+    src: url('../font/Sansita/Sansita-Regular.ttf');
 }
 html{
-    background-color: var(--fundo);
-    color: var(--branco);
-    font-family: 'Alegreya Sans', sans-serif;
-    font-family: 'Fredoka One', cursive;
-    font-family: 'Gantari', sans-serif;
+    
+    font-style: normal;
+    scroll-behavior: smooth;
+    font-family: 'Sansita';
+}
+body{
+    margin: 0 auto;
     overflow-x: hidden;
-    width: 100%;
+    background-color: var(--fundo);
 }
 body::-webkit-scrollbar{
     width: 10px;
@@ -20,7 +29,7 @@ body::-webkit-scrollbar-track{
     background-color: var(--fundo);
 }
 body::-webkit-scrollbar-thumb{
-    background-color: var(--claroL);
+    background-color: var(--branco);
     border-radius: 5rem;
     border: none;
 }

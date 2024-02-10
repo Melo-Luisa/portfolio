@@ -1,0 +1,26 @@
+.apresentacao{
+    color: var(--branco);
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+}
+.apresentacao h2{
+    font-family:'Italiana';
+    padding: 0.5rem;
+}
+.apresentacao h3 a{
+    text-decoration: none;
+    color: var(--verde);
+}
+@media screen and (min-width:768px) {
+.apresentacao{
+    color: var(--branco);
+    font-size: 2rem;
+    padding: 2rem;
+    margin-top: 0.5%;
+    text-align: left;
+}
+}
+
+   
+    
