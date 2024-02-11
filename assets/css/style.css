@@ -23,15 +23,15 @@ body{
     background-color: var(--color-secondary);
     color: var(--font-color);
 }
-
-.theme-dark {
-  --color-secondary: var(--fundo);
-  --font-color: var(--light);
-}
 .theme-light {
     --color-secondary: var(--light);
     --font-color: var(--fundo); 
 }
+.theme-dark {
+  --color-secondary: var(--fundo);
+  --font-color: var(--light);
+}
+
 body::-webkit-scrollbar{
     width: 10px;
 }

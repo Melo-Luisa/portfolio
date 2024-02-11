@@ -29,7 +29,7 @@
   bottom: 0;
   margin: auto 0;
   transition: 0.4s;
-  background:var(--verde) url('https://i.ibb.co/7JfqXxB/sunny.png');
+  background: var(--fundo) url('https://i.ibb.co/FxzBYR9/night.png');
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 2rem;
@@ -38,7 +38,8 @@
 
 
 input:checked + .slider:before {
-  background: var(--fundo) url('https://i.ibb.co/FxzBYR9/night.png');
+  background:var(--verde) url('https://i.ibb.co/7JfqXxB/sunny.png');
+
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 2rem;
