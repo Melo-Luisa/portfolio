@@ -3,6 +3,7 @@
     --branco:#E0D9D9;
     --verde: #497742;
     --green: rgba(51, 102, 39, 0.714);
+    --light:#CFD9CD;
 }
 @font-face {
     font-family: 'Italiana';
@@ -13,15 +14,23 @@
     src: url('../font/Sansita/Sansita-Regular.ttf');
 }
 html{
-    
     font-style: normal;
     scroll-behavior: smooth;
     font-family: 'Sansita';
 }
 body{
     margin: 0 auto;
-    overflow-x: hidden;
-    background-color: var(--fundo);
+    background-color: var(--color-secondary);
+    color: var(--font-color);
+}
+
+.theme-dark {
+  --color-secondary: var(--fundo);
+  --font-color: var(--light);
+}
+.theme-light {
+    --color-secondary: var(--light);
+    --font-color: var(--fundo); 
 }
 body::-webkit-scrollbar{
     width: 10px;

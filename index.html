@@ -2,7 +2,7 @@
 <html lange="pt-br">
 	<head>
 		<meta charset="UFT-8">
-		<title>Luisa Cotinho de Melo</title>
+		<title>LuisaMelo!</title>
 		<meta name="viewport" content="width=device-width" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<link rel="stylesheet" href="./assets/css/reset.css">
@@ -11,8 +11,9 @@
 		<link rel="stylesheet" href="./assets/css/apresentacao.css">
 		<link rel="stylesheet" href="./assets/css/projetos.css">
 		<link rel="stylesheet" href="./assets/css/conhecimentos.css">
+		<link rel="stylesheet" href="./assets/css/dark-and-light-mode.css">
 		<link rel="stylesheet" href="./assets/css/rodape.css">
-
+		<script src="./script.js" defer></script>
 
 	</head>
 
@@ -20,7 +21,10 @@
 		
 		<header class="navbar">
 			<h2>LuisaMelo!</h1>
-			<a href="#">Light</a>
+			<label id="switch" class="switch">
+				<input type="checkbox" onchange="toggleTheme()" id="slider">
+				<span class="slider round"></span>
+			</label>
 		</header>
 	
 		<div class="apresentacao">

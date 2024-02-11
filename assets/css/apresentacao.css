@@ -1,5 +1,5 @@
 .apresentacao{
-    color: var(--branco);
+    color: var(--font-color);
     font-size: 1.5rem;
     padding: 2rem;
     text-align: center;
@@ -14,7 +14,7 @@
 }
 @media screen and (min-width:768px) {
 .apresentacao{
-    color: var(--branco);
+    color: var(--font-color);
     font-size: 2rem;
     padding: 2rem;
     margin-top: 0.5%;
