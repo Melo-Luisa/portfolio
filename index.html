@@ -2,15 +2,19 @@
 <html lange="pt-br">
 	<head>
 		<meta charset="UFT-8">
-		<title>Luisa Cotinho de Melo</title>
+		<title>LuisaMelo!</title>
 		<meta name="viewport" content="width=device-width" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<link rel="stylesheet" href="./assets/css/reset.css">
 		<link rel="stylesheet" href="./assets/css/style.css">
 		<link rel="stylesheet" href="./assets/css/navbar.css">
 		<link rel="stylesheet" href="./assets/css/apresentacao.css">
+		<link rel="stylesheet" href="./assets/css/projetos.css">
+		<link rel="stylesheet" href="./assets/css/conhecimentos.css">
+		<link rel="stylesheet" href="./assets/css/dark-and-light-mode.css">
 		<link rel="stylesheet" href="./assets/css/rodape.css">
-
+		<link rel="icon" href="./assets/img/2024/portfolio.png">
+		<script src="./script.js" defer></script>
 
 	</head>
 
@@ -18,7 +22,10 @@
 		
 		<header class="navbar">
 			<h2>LuisaMelo!</h1>
-			<a href="#">Light</a>
+			<label id="switch" class="switch">
+				<input type="checkbox" onchange="toggleTheme()" id="slider">
+				<span class="slider round"></span>
+			</label>
 		</header>
 	
 		<div class="apresentacao">
@@ -27,14 +34,106 @@
 			<h3>Sou uma estudante de Engenharia da Computação na UTFPR. Atualmente faço parte do grupo de extensão <a href="#">O PROJETO</a>. Ex-Aluna da <a href="#">ONE - Oracle Next Education</a>, desenvolvimento fullstack.</h3>
 		</div>
 
-		<div class="projetos"></div>
+		<div class="conhecimento">
+			<h2>Em conhecimento</h2>
+			<swiper-container class="swiper" pagination="true" pagination-clickable="true" space-between="30"
+			slides-per-view="3.5" loop="true" centered-slides="true" autoplay-delay="2500"
+			autoplay-disable-on-interaction="false">
+				<swiper-slide><img src="./assets/img/html-5.png" alt=""></swiper-slide>
+				<swiper-slide><img src="./assets/img/css-3.png" alt=""></swiper-slide>
+				<swiper-slide><img src="./assets/img/js.png" alt=""></swiper-slide>
+				<swiper-slide><img src="./assets/img/python.png" alt=""></swiper-slide>
+				<swiper-slide><img src="./assets/img/git.png" alt=""></swiper-slide>
+				<swiper-slide>				<img src="./assets/img/2024/github.png" alt="">
+				</swiper-slide>
+				<swiper-slide>				<img src="./assets/img/2024/c-.png" alt="">
+				</swiper-slide>	
+				<swiper-slide>
+					<img src="./assets/img/2024/placa-de-circuito.png" alt="">
+				
+				</swiper-slide>			
+			</swiper-container>
+		</div>
+		<h2 class="projeto_nome">Projetos</h2>
+		<div class="projetos">
+			
+			<div class="card_projects" style=" background-image: linear-gradient(to bottom right, rgba(0,0,0,0.5), var(--fundo)), url('./assets/img/2024/game_retro.jpg');;">
+				<h2>WordZapper</h2>
+				<h3>Jogo que tem como objetivo desviar de obstáculos espaciais e aceitar a palavra escondida, se fizer isso antes do tempo, espaço-nave salva. Jogo modo terminal<br> Linguagem Utilizada:<br>
+				<img src="./assets/img/python.png" alt="linguagem python"></h3>
+				<a href="https://github.com/Melo-Luisa/Word_Zapper"><img src="./assets/img/2024/github.png" alt=""></a>
+			</div>
+			<div class="card_projects" style="background-image:linear-gradient(to bottom right, rgba(0,0,0,0.5), var(--fundo)), url('./assets/img/2024/road.jpg') ;">
+				<h2>Frog Cross the Road</h2>
+				<h3>Jogo que você tem como objetivo atrevessar a galinha até o final da estrada, você possui 3 vidas. Linguagem utilizada: <br> <img src="./assets/img/python.png" alt=""></h3>
+				<a href="https://github.com/Melo-Luisa/Word_Zapper"><img src="./assets/img/2024/github.png" alt=""></a>
+			</div>
+			<div class="card_projects" style="background-image: linear-gradient(to bottom right, rgba(0,0,0,0.5), var(--fundo)), url('./assets/img/2024/market.jpg');">
+				<h2>SuperMarket List</h2>
+				<h3>Site que você pode organizar quais produtos comprar e de qual setor ele pertende. Site feito nos 7 Days Of Code da Alura - Front End. Linguagens utilizadas: <br>
+				<img src="./assets/img/html-5.png" alt="">
+				<img src="./assets/img/css-3.png" alt="">
+				<img src="./assets/img/js.png" alt=""></h3>
+				<a href="https://github.com/Melo-Luisa/Word_Zapper"><img src="./assets/img/2024/github.png" alt=""></a>
+				<a href="https://melo-luisa.github.io/SuperMaket_List/"><img src="./assets/img/2024/link-externo.png" alt=""></a>
 
+			</div>
+			<div class="card_projects" style="background-image:linear-gradient(to bottom right, rgba(0,0,0,0.5), var(--fundo)), url('./assets/img/2024/game_logical.jpg');">
+				<h2>Mistermind</h2>
+				<h3>Jogo, qual as cores? Qual a ordem? Você deve acertar cor e qual a ordem, você tem 10 tentativas. Consegue lembrar a ultima sequência? Linguagem Utilizada<br> <img src="./assets/img/python.png" alt=""></h3>
+				<a href="https://github.com/Melo-Luisa/Word_Zapper"><img src="./assets/img/2024/github.png" alt=""></a>
+			</div>
+			<div class="card_projects" style="background-image:linear-gradient(to bottom right, rgba(0,0,0,0.5), var(--fundo)), url('./assets/img/2024/hangman.jpg');">
+				<h2>Joga da Forca</h2>
+				<h3>Jogo tradicional de escola, adivinha a palavra acertando as letras, você não pode montar o boneco inteiro se não será enforcado. Feito com a bibioteca Turtle. Linguagem Utilizada: <br> <img src="./assets/img/python.png" alt=""></h3>
+				<a href="https://github.com/Melo-Luisa/Word_Zapper"><img src="./assets/img/2024/github.png" alt=""></a>
+			</div>
+			<div class="card_projects" style="background-image:linear-gradient(to bottom right, rgba(0,0,0,0.5), var(--fundo)), url('./assets/img/2024/movie.jpg');">
+				<h2>Alura Flix</h2>
+				<h3>Site feito no Estilo Netflix porém apara consultar seus filmes em catalógo. Feito na Imersão da Alura. Linguagem utlizada: <br> 
+					<img src="./assets/img/html-5.png" alt="">
+					<img src="./assets/img/css-3.png" alt="">
+					<img src="./assets/img/js.png" alt=""> </h3>
+				<a href="https://github.com/Melo-Luisa/AluraFlix"><img src="./assets/img/2024/github.png" alt=""></a>
+				<a href="https://melo-luisa.github.io/AluraFlix/"><img src="./assets/img/2024/link-externo.png" alt=""></a>
+			</div>
+			<div class="card_projects" style="background-image:linear-gradient(to bottom right, rgba(0,0,0,0.5), var(--fundo)), url('./assets/img/2024/coin.jpg');">
+				<h2>Conversor de Moeda</h2>
+				<h3>Site que você pode converter seu dinheiro para dólar.  Feito na Imersão da Alura. Linguagens utilizadas: <br> 
+				<img src="./assets/img/html-5.png" alt="logo HTML">
+				<img src="./assets/img/css-3.png" alt="logo CSS">
+				<img src="./assets/img/js.png" alt="logo JavaScript"></h3>
+				<a href="https://github.com/Melo-Luisa/Conversor_de_moedas"><img src="./assets/img/2024/github.png" alt=" logo do github"></a>
+				<a href="https://melo-luisa.github.io/Conversor_de_moedas/"><img src="./assets/img/2024/link-externo.png" alt="logo de link externo"></a>
+			</div>
+			<div class="card_projects" style="background-image:linear-gradient(to bottom right, rgba(0,0,0,0.5), var(--fundo)), url('./assets/img/2024/zombie.jpg');">
+				<h2>ZombieDice</h2>
+				<h3>Jogo no qual você deve evitar tiros, comer cerebros. Coma 13 cerebros e escape de 3 tiros ou morrerá. O jogo imita um estilo de tabuleiro porem as peças são geradas para você automaticamente. Linguagem Utilizada: <br> <img src="./assets/img/python.png" alt=""></h3>
+				<a href="https://github.com/Melo-Luisa/ZombieDice"><img src="./assets/img/2024/github.png" alt=" logo do github"></a>
+			</div>
+			<div class="card_projects" style="background-image:linear-gradient(to bottom right, rgba(0,0,0,0.5), var(--fundo)), url('./assets/img/2024/elfico.jpg');">
+				<h2>Encriptador</h2>
+				<h3>Encripte suas mensagens assim ninguem saberá o que significa, a não ser que utilize esse site. Linguagem utilizadas: <br> 
+				<img src="./assets/img/html-5.png" alt="">
+				<img src="./assets/img/css-3.png" alt="">
+				<img src="./assets/img/js.png" alt=""></h3>
+				<a href="https://github.com/Melo-Luisa/Site"><img src="./assets/img/2024/github.png" alt=""></a>
+				<a href="https://melo-luisa.github.io/Site/"><img src="./assets/img/2024/link-externo.png" alt=""></a>
+			</div>
+
+		</div>
+		
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 	</body>
 
 	<footer class="rodape">
-		<!--coloca link pata LK ou GH-->
-		<p class="textin">Developed by <a class="link_rodape" href="https://github.com/Melo-Luisa">Luisa Melo</a></p>
-		<br>
-		<p class="textin_2">&copy;Copyright 2023</p>
+		<div class="redes-sociais">
+			<a href=""><img src="./assets/img/2024/o-email.png" alt=""></a>
+			<a href=""><img src="./assets/img/2024/github.png" alt=""></a>
+			<a href=""><img src="./assets/img/2024/logotipo-do-linkedin.png" alt=""></a>
+			<a href=""><img src="./assets/img/2024/instagram (1).png" alt=""></a>
+		</div>
+		<p> &copy;2024 Design and build by Luisa Melo</a></p>
 	</footer>
 </html>

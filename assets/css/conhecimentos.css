@@ -1,0 +1,19 @@
+.conhecimento{
+    padding: 1rem;
+}
+.conhecimento h2{
+    padding: 1rem;
+    font-family: "Italiana";
+    background-color: var(--verde);
+    color: var(--branco);
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.swiper img{
+    width: 5rem;
+    padding: 2rem;
+}
+swiper-container{
+    --swiper-pagination-color: var(--green);
+}
