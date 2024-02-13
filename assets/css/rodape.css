@@ -18,8 +18,13 @@
     text-align: center;
     margin: 2rem;
 }
-
-
+a{
+    text-decoration: none;
+    color: var(--branco);
+}
+.top{
+    font-size: 3rem;
+}
 @media screen and (min-width:1024px) {
     .rodape{
         display: flex;
