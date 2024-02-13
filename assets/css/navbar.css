@@ -4,10 +4,17 @@
     justify-content: space-around;
     background-color: var(--verde);
     color: var(--branco);
+    position: fixed;
+    width: 100%;
+    top:0;
+}
+a{
+    text-decoration: none;
+    color: var(--branco);
 }
 .navbar h2{
     font-size: 2rem;
-    padding: 1rem;
+    padding: 0.5rem;
     font-family: 'Italiana';
 }
 

@@ -1,12 +1,11 @@
 
-/* The switch - the box around the slider */
+
 .switch {
   position: relative;
   display: block;
   
 }
 
-/* The slider */
 .slider {
   position: absolute;
   cursor: pointer;
